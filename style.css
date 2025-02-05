@@ -1,0 +1,189 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 10rem;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.headertext {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: #EED3D9;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 0px;
+    font-family: "Raleway", serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+#header {
+    background-color: #B5C0D0;
+    padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerpicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-bar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav {
+    display: inline;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+a {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #CCD3CA;
+}
+
+.github-link {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #CCD3CA;
+}
+
+hr {
+    margin-top: 20px;
+    color: #B5C0D0;
+    border-style: solid; 
+    width: 74%;
+}
+
+.img-olivia {
+    border-radius: 30%;
+    width: 200px;
+    margin-top: 100px;
+    margin-right: 50px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img-contactme {
+    width: 200px;
+    margin-right: 50px;
+    margin-left: 31.5%; 
+    float: left;
+}
+
+.contactme {
+    clear: both;
+}
+
+.text-me {
+    margin-top: 10px;
+    width: 400px;
+    text-align: justify;
+    margin-left: 40%;
+}
+
+.img-skills {
+    border-radius: 30%;
+    width: 150px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-interest {
+    border-radius: 30%;
+    width: 150px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me {
+    margin-bottom: 50px;
+}
+
+#footer {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 300px) and (max-width: 1000px)
+{
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Raleway", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 0px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .headerpicture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    #nav-bar {
+        margin-top: 20px;
+    }
+    
+    .nav {
+        display: block;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    .text-me {
+        margin-top: 10px;
+        width: 400px;
+        text-align: justify;
+        margin-left: 10%;
+    }
+}
